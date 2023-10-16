@@ -1,0 +1,44 @@
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    h2{
+        color: white;
+        padding-left: 18px;
+    }
+    .menu{
+        a{
+            color: white;
+            text-decoration: none;
+            padding-left: 15px;
+        }
+    }
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top:200px;
+    left: 300px;
+    .left{
+        width: 350px;
+        button{
+           margin-right: 250px;
+           padding: 0px 30px 0px 30px;
+        }
+        h1{
+            color: white;
+        }
+        p{
+            color: gray;
+        }
+         }
+         .right{
+            img{
+               padding-left:200px;
+            }
+         }    }
